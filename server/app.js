@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const routes = require('./routes');
 const cors = require('cors');
 
-mongoose.connect('mongodb://localhost:27017/overflowthing');
+mongoose.connect('mongodb://user1:12345a@ds121494.mlab.com:21494/overflowaaaa');
 
 app.use(cors())
 
